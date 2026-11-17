@@ -1,0 +1,33 @@
+# Build output directories
+.gradle/
+build/
+*/build/
+app/build/
+
+# Android Studio & IntelliJ IDE files
+.idea/
+*.iml
+.kotlin/
+.artifacts/
+.agent/
+
+# Local configuration & environment files
+local.properties
+
+# Signing & Keystore files (Security protection)
+*.keystore
+*.jks
+*.pepk
+*.p12
+*.key
+signing.properties
+stockfish_me_keystone
+
+# Native build outputs
+.externalNativeBuild
+.cxx/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+captures/
